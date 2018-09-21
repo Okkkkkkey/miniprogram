@@ -1,0 +1,16 @@
+certifi==2018.8.24
+chardet==3.0.4
+Crypto==1.4.1
+Django==1.8
+idna==2.7
+Naked==0.1.31
+pipenv==2018.7.1
+pycryptodome==3.6.6
+PyExecJS==1.5.1
+PyYAML==3.13
+requests==2.19.1
+shellescape==3.4.1
+six==1.11.0
+urllib3==1.23
+virtualenv==16.0.0
+virtualenv-clone==0.3.0
