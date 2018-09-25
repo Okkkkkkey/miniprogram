@@ -1,14 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse,HttpRequest
-
+import json
 # Create your views here.
 import requests
 
 
 def search(request):
-    data = {}
-    for k,v in request.POST.items():
-        data[k] = v
+    data = json.loads(request.body.decode())
     kw = data['kw']
     del data['kw']
 
