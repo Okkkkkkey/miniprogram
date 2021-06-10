@@ -1,7 +1,7 @@
 certifi==2018.8.24
 chardet==3.0.4
 Crypto==1.4.1
-Django==1.8
+Django==2.2.24
 idna==2.7
 Naked==0.1.31
 pipenv==2018.7.1
